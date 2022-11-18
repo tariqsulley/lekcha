@@ -13,9 +13,13 @@ class Homepage extends Component{
                 </div>
 
                 <div className={styles.card}>
-                <p> Welcome To The Lekcha App </p>
-                <p> I am a:</p>
-                <p> Student Lecturer</p>
+                <p className={styles.welc}> Welcome To The Lekcha App </p>
+                <p className={styles.subtxt}> I am a:</p>
+                
+                <div className={styles.btnarea}>
+                <button className={styles.button}> Student</button>
+                <button className={styles.button}> Lecturer</button>
+                </div>
                 </div>
             </div>
         )
