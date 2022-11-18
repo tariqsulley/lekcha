@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Homepage from './Homepage'
+import LoginPage from './LoginPage'
+import HomePage from './Homepage'
 export default function Home() {
   return (
     <div>
-      <Homepage/>
+     <LoginPage/>
     </div>
   )
 }

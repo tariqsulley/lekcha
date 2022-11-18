@@ -1,16 +1,16 @@
 import React, {Component} from "react"
 
-class HomePage extends Component{
+class LecturerPage extends Component{
     constructor(props){
         super(props)
     }
     render(){
         return(
             <div>
-                <button onClick={this.props.changeValue}> Back</button>
+                Lecturer View
             </div>
         )
     }
 }
 
-export default HomePage
+export default LecturerPage
